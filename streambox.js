@@ -13,5 +13,13 @@ function duplicate (filename){
 
 }
 
+//-----------------------------------------------------------------------//
+
+function transform(file, re, fn ){
+
+
+
+    
+}
 
 module.exports = {duplicate }

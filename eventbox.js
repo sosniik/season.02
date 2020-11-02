@@ -27,14 +27,7 @@ function withArgs(names){
 }
 //-----------------------------------------------------------------------//
 
-function transform(file, re, fn ){
 
-    myEmitter.on('test',(re),(fn)=>{
-        console.log('the file',re, fn )
-    })
-
-    myEmitter.emit('test',(re),(fn))
-}
 
 
 
