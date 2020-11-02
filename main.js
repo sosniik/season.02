@@ -1,6 +1,6 @@
 //-----------------------------------------------------------------------//
 
-const {empty} = require('./eventbox')
+/*const {empty} = require('./eventbox')
 
 empty()
 
@@ -18,18 +18,12 @@ const {duplicate} = require('./streambox')
 
 const filename = "ios-Logo.png"
 
-duplicate(filename)
+duplicate(filename)*/
 
 //-----------------------------------------------------------------------//
 
-const {transform} = require('./eventbox')
+const {transform} = require('./streambox')
 
-const file = "text.txt"
-
-const re = /[a-z]/g
-
-const fn = file.toUppercase()
-
-transform(file,re,fn)
+transform('text.txt', /[a-z]/g, (letter) => letter.toUpperCase(),)
 
 //-----------------------------------------------------------------------//

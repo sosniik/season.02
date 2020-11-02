@@ -35,5 +35,5 @@ function withArgs(names){
 module.exports = {
     empty,
     withArgs,
-    transform,
+    
 }
